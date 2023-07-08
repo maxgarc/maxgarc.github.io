@@ -2,8 +2,9 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: top;
   background-size: cover;
+  opacity: 0.4;
 }
 
 
