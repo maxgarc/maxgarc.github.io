@@ -24,11 +24,11 @@ dt {
 }
 
 .portrait {
-  float: center;
+  float: right;
   margin: 32px;
   width: 320px;
 }
 
 .portrait p {
-  text-align: right;
+  text-align: center;
 }
