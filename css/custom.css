@@ -24,7 +24,7 @@ dt {
 }
 
 .portrait {
-  float: right;
+  float: center;
   margin: 32px;
   width: 320px;
 }
