@@ -32,3 +32,11 @@ dt {
 .portrait p {
   text-align: center;
 }
+
+.image_paper{
+  float: right;
+  width: 30vh;
+}
+.abstract{
+  float: left;
+}
