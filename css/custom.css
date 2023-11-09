@@ -38,7 +38,7 @@ dt {
 /*FOR ACCORDION*/
 .accordion {
   background-color: #fff;
-  /*color: #009933;*/
+  color: #777; /* #009933;*/
   cursor: pointer;
  /* padding: 2px;*/
   width: auto;
@@ -50,7 +50,7 @@ dt {
 }
 
 .accordion:after {
-  content: '\0203A  Abstract'; 
+  content: '\0203A'; 
   font-size: 15px;
   /*font-weight: bold;*/
   color: #777;
@@ -59,7 +59,7 @@ dt {
 }
 
 .active:after {
-  content: "\2043  Abstract";
+  content: "\2043";
 }
 
 .panel {
