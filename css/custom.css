@@ -61,7 +61,7 @@ dt {
 }
 
 .active:after {
-  content: "\2043";
+  content: "-";
 }
 
 .panel {
