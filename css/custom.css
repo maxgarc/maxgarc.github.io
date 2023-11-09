@@ -25,18 +25,49 @@ dt {
 
 .portrait {
   float: right;
-  margin: 32px;
-  width: 40vh; /*320px;*/
+  margin-left: 30px;
+  width: 50vh; /*320px;*/
 }
 
 .portrait p {
-  text-align: center;
+  text-align: right;
+  align: justify;
 }
 
-.image_paper{
-  float: right;
-  width: 30vh;
+
+/*FOR ACCORDION*/
+.accordion {
+  background-color: #fff;
+  color: #009933;
+  cursor: pointer;
+  padding: 2px;
+  width: auto;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 10%;
 }
-.abstract{
+
+.accordion:after {
+  content: '[\02795  Abstract]'; 
+  font-size: 13px;
+  font-weight: bold;
+  color: #777;
   float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "[\2796  Abstract]";
+}
+
+.panel {
+  padding: 8px 8px 0px 8px;
+  margin: 5px 0 5px 0;
+  /*background-color: rgba(0, 153, 51, 0.25);*/
+  background-color: rgba(51, 153, 204, 0.25);
+  display: none;
+  overflow: hidden;
+  border-radius: 1%;
 }
