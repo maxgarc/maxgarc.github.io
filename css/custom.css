@@ -45,6 +45,7 @@ dt {
   text-align: left;
   border: none;
   outline: none;
+  outline-width: thin;
   transition: 0.4s;
  /* border-radius: 10%;*/
 }
@@ -56,6 +57,7 @@ dt {
   color: #777;
   float: left;
   margin-left: 5px;
+  outline-width: thin;
 }
 
 .active:after {
