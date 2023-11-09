@@ -38,35 +38,35 @@ dt {
 /*FOR ACCORDION*/
 .accordion {
   background-color: #fff;
-  color: #009933;
+  /*color: #009933;*/
   cursor: pointer;
-  padding: 2px;
+ /* padding: 2px;*/
   width: auto;
   text-align: left;
   border: none;
   outline: none;
   transition: 0.4s;
-  border-radius: 10%;
+ /* border-radius: 10%;*/
 }
 
 .accordion:after {
-  content: '[\02795  Abstract]'; 
-  font-size: 13px;
-  font-weight: bold;
+  content: '\0203A  Abstract'; 
+  font-size: 15px;
+  /*font-weight: bold;*/
   color: #777;
   float: left;
   margin-left: 5px;
 }
 
 .active:after {
-  content: "[\2796  Abstract]";
+  content: "\2043  Abstract";
 }
 
 .panel {
   padding: 8px 8px 0px 8px;
   margin: 5px 0 5px 0;
   /*background-color: rgba(0, 153, 51, 0.25);*/
-  background-color: rgba(51, 153, 204, 0.25);
+  background-color: rgba(01, 10, 01, 0.00);
   display: none;
   overflow: hidden;
   border-radius: 1%;
