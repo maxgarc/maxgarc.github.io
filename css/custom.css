@@ -23,11 +23,42 @@ dt {
   margin: 16px 0 8px 0;
 }
 
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1000px) {
+/* Styles */
 .portrait {
   float: right;
   margin-left: 30px;
   width: 20vw; /*320px;*/
 }
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) and (max-width : 1000px) {
+/* Styles */
+.portrait {
+  float: left;
+  margin: 10px;
+  width: 50vw; /*320px;*/
+  }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+.portrait {
+  position: static;
+  margin: 0px;
+  width: 100vw; /*320px;*/
+  }
+}
+
+
 
 .portrait p {
   text-align: right;
