@@ -46,7 +46,7 @@ and (min-width : 321px) and (max-width : 1000px) {
 /* Styles */
 .portrait {
   float: left;
-  margin: 10px;
+  margin-right: 10px;
   width: 40vw; /*320px;*/
   }
 }
