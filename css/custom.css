@@ -11,7 +11,7 @@ header {
 }
 
 header, section {
-  margin: 48px 0;
+  /*margin: 48px 0;*/
 }
 
 nav {
@@ -47,7 +47,7 @@ and (min-width : 321px) and (max-width : 1000px) {
 .portrait {
   float: left;
   margin: 10px;
-  width: 50vw; /*320px;*/
+  width: 40vw; /*320px;*/
   }
 }
 
@@ -58,8 +58,8 @@ and (max-width : 320px) {
 .portrait {
   position: static;
   margin: 0px;
-  width: 100vw; /*320px;*/
-  }
+  width:auto; 
+ }
 }
 
 
