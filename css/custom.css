@@ -35,7 +35,8 @@ and (min-width : 1000px) {
 .portrait {
   float: right;
   margin-left: 30px;
-  width: 20vw; /*320px;*/
+  width: 20vh; /*320px;*/
+  max-width: 40%; /*320px;*/
 }
 }
 
@@ -108,3 +109,13 @@ and (max-width : 320px) {
   overflow: hidden;
   border-radius: 1%;
 }
+
+/*EXPERIMENTO CON DETAILS/SUMMARY CLASS*/
+.summary-light {
+  /*background: #edf2ff; */
+  outline: none;
+  padding: 15px; 
+  border-radius: 5px;
+  /*text-transform: uppercase;*/
+}
+.summary-dark { background: #3630a3; color: white; }
