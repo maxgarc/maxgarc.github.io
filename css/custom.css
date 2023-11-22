@@ -83,13 +83,15 @@ and (max-width : 320px) {
   outline: none;
   outline-width: thin;
   transition: 0.4s;
+  font-weight: 200;
  /* border-radius: 10%;*/
 }
 
 .accordion:after {
-  content: '\0203A'; 
-  font-size: 15px;
-  /*font-weight: bold;*/
+  /*content: '\0203A';*/
+  content: '\025B6 '; 
+   font-size: 15px;
+  font-weight: 200;
   color: #777;
   float: left;
   margin-left: 5px;
@@ -97,7 +99,8 @@ and (max-width : 320px) {
 }
 
 .active:after {
-  content: "-";
+  /*content: "-";*/
+  content: '\025BC ';
 }
 
 .panel {
