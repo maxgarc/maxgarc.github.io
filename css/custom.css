@@ -35,8 +35,9 @@ and (min-width : 1000px) {
 .portrait {
   float: right;
   margin-left: 30px;
-  width: 20vw; /*320px;*/
-  max-width: 40%; /*320px;*/
+  width: 52vw; /*320px;*/
+  max-width: 52%; /*320px;*/
+  margin-top: 6px; /* 👈 pushes the picture down */
 }
 }
 
