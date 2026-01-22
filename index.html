@@ -77,7 +77,25 @@
 
     <section id="bio">
       <div class="portrait">
-        <img src="port_br.jpg" alt="Portrait" >
+        <picture>
+      <!-- Desktop -->
+          <source
+            media="(min-width: 1024px)"
+            srcset="port_br.jpg">
+
+      <!-- Tablet -->
+          <source
+            media="(min-width: 600px)"
+            srcset="port_br_small.png">
+
+      <!-- Mobile (fallback) -->
+          <img
+            src="port_br_small.png"
+            alt="Portrait of Maximiliano García"
+            loading="lazy">
+    </picture> 
+
+        <!--img src="port_br.jpg" alt="Portrait" -->
         <!--img src="Max-Garcia_06_.jpg" alt="Portrait"-->
         <!--img src="2023-09-17_BUEcon-55.jpg" alt="Portrait"-->        
          <!--width="300" height="300" -->
